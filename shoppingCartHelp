@@ -1,0 +1,41 @@
+react project -
+
+- create a folder 
+-open in vs-code 
+-open terminal 
+-install - the below command 
+		 - npm create vite@latest - y - .(dot) for current folder structure - react (as framework) - java script (select varient) - no- no-
+		 - to install node module - npm i 
+		 - npm run dev - to run and start the server 
+		 
+- install react router -
+		- npm i react-router-dom
+		
+- go to vs code - click on Extension left side menu - search - ES7+ React/Redux/React-Native snippets
+		- install it - 
+		
+- go to App.jsx - remove all and type  rafc and select the 1st one.
+	 export default App
+- add - tailwindcss in to project 
+	- search in google - tailwindcss and open the 1st link 
+	- open goto - Docs - click on "using Vite" 
+	- copy the command which are under "terminal". - npm install tailwindcss @tailwindcss/vite
+	- in the website - vite.config.ts - copy the "import tailwindcss from '@tailwindcss/vite'" and past inside ur project "vite.config.js"
+	- in the web page - copy "plugins" like - tailwindcss(), and past it inside the "vite.config.ts"  after [react(),(past here ----)]
+	- goto main index.css and past "@import "tailwindcss";"
+this is how tailwindcss will install in your project 
+
+- go to index.css - remove all and type 
+	body{
+	background-color: black;
+	}
+
+- install React-toastify
+npm i react-toastify
+
+rafce
+
+
+
+npm run dev 
+
